@@ -28,7 +28,7 @@ class Portfolio extends StatelessWidget {
           return MaterialApp(
               theme: PortfolioTheme.light(),
               darkTheme: PortfolioTheme.dark(),
-              themeMode: ThemeMode.system,
+              themeMode: currentMode,
               title: 'Portfolio',
               debugShowCheckedModeBanner: false,
               home: OrientationBuilder(builder: (context, orientation) {

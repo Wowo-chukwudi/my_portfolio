@@ -14,19 +14,20 @@
 
 ### The App
 
-This app is an interactive version of my resume which shows my name, picture, about me, social links and skills.
+This app is an interactive version of my resume which shows my name, picture, about me, social links and skills. The app features a light and dark mode which can be adjusted using the icon on appBar. It also shows a different view when the device is rotated ie Landscape view
 
 The codebase is based on Flutter and dart which are used to build highly responsive applications.
+Orientation was achieved using OrientationBuilder.
 Packages used include:
- 1. Url Launcher: Used to launch social links 
+ 1. Url Launcher: It is a flutter plugin used to launch URLs. It was used in this app to launch the links embedded in the social media icons displayed in the home screen.
  2. Google fonts: Used to get the fonts i used in the app
 
 
 
 ### Links
 
-- APK file Link: [APK file](https://github.com/Wowo-chukwudi/product-preview)
-- Appetize URL: [Appetize](https://wowo-chukwudi.github.io/product-preview/)
+- APK file Link: [APK file](https://drive.google.com/file/d/1vBCupr5zHMTqq8WSgjOYYHHUq6Ai4qWS/view?usp=sharing)
+- Appetize URL: [Appetize](https://appetize.io/app/4isjvcodf4o24276gg6v4ma4bq?device=pixel4&osVersion=12.0&scale=75)
 
 ## My process
 

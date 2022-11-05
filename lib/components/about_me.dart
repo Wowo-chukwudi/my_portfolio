@@ -22,12 +22,7 @@ class AboutMe extends StatelessWidget {
         ),
         child: ListView(
           children: [
-            Flexible(
-              child: AspectRatio(
-                aspectRatio: 1 / 1,
-                child: Image.asset('assets/me.png'),
-              ),
-            ),
+            Image(height: 300, width: 500, image: AssetImage('assets/me.png')),
             const SizedBox(
               height: 8,
             ),
