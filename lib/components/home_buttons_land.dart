@@ -26,11 +26,11 @@ class HomeButtonsLand extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             style: TextButton.styleFrom(
-              minimumSize: const Size(40, 60),
-              primary: Colors.white,
-              backgroundColor: Color.fromARGB(255, 208, 142, 118),
-              //shape: const StadiumBorder()
-            ),
+                minimumSize: const Size(40, 60),
+                primary: Colors.white,
+                backgroundColor: Colors.red
+                //shape: const StadiumBorder()
+                ),
           ),
           bottom: 10,
           left: 0,

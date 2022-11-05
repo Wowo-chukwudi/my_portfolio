@@ -24,7 +24,9 @@ class HomeButtons extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => AboutMe()),
                   );
                 },
-                icon: Icon(FontAwesomeIcons.personDress),
+                icon: Icon(
+                  FontAwesomeIcons.personDress,
+                ),
                 label: Text(
                   'About Me',
                   style: Theme.of(context).textTheme.headline2,
@@ -33,7 +35,7 @@ class HomeButtons extends StatelessWidget {
                 style: TextButton.styleFrom(
                   minimumSize: const Size(40, 60),
                   primary: Colors.white,
-                  backgroundColor: Color.fromARGB(255, 208, 142, 118),
+                  backgroundColor: Colors.red,
                   //shape: const StadiumBorder()
                 ),
               ),

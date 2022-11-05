@@ -16,7 +16,10 @@
 
 This app is an interactive version of my resume which shows my name, picture, about me, social links and skills.
 
-The codebase is based on Flutter and dart which are used to build highly responsive applications
+The codebase is based on Flutter and dart which are used to build highly responsive applications.
+Packages used include:
+ 1. Url Launcher: Used to launch social links 
+ 2. Google fonts: Used to get the fonts i used in the app
 
 
 

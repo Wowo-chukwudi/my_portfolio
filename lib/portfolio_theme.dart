@@ -6,12 +6,12 @@ class PortfolioTheme {
     bodyText1: TextStyle(
       fontFamily: 'Raleway',
       fontSize: 14.0,
-      fontWeight: FontWeight.w400,
-      color: Colors.black,
+      fontWeight: FontWeight.w600,
+      color: Colors.white,
     ),
     bodyText2: TextStyle(
       fontFamily: 'Nunito',
-      fontSize: 14.0,
+      fontSize: 15.0,
       fontWeight: FontWeight.w400,
       color: Colors.black,
     ),
@@ -19,11 +19,11 @@ class PortfolioTheme {
       fontFamily: 'Raleway',
       fontSize: 32.0,
       fontWeight: FontWeight.w900,
-      color: Colors.black,
+      color: Colors.white,
     ),
     headline2: TextStyle(
       fontFamily: 'Raleway',
-      fontSize: 21.0,
+      fontSize: 18.0,
       fontWeight: FontWeight.w700,
       color: Colors.black,
     ),
@@ -70,13 +70,6 @@ class PortfolioTheme {
         foregroundColor: Colors.black,
         backgroundColor: Colors.white,
       ),
-      floatingActionButtonTheme: const FloatingActionButtonThemeData(
-        foregroundColor: Colors.white,
-        backgroundColor: Colors.black,
-      ),
-      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        selectedItemColor: Colors.green,
-      ),
       textTheme: lightTextTheme,
     );
   }
@@ -87,13 +80,6 @@ class PortfolioTheme {
       appBarTheme: AppBarTheme(
         foregroundColor: Colors.white,
         backgroundColor: Colors.grey[900],
-      ),
-      floatingActionButtonTheme: const FloatingActionButtonThemeData(
-        foregroundColor: Colors.white,
-        backgroundColor: Colors.green,
-      ),
-      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        selectedItemColor: Colors.green,
       ),
       textTheme: darkTextTheme,
     );

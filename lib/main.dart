@@ -9,9 +9,9 @@ void main() {
 }
 
 class Portfolio extends StatelessWidget {
+  static final ValueNotifier<ThemeMode> themeNotifier =
+      ValueNotifier(ThemeMode.light);
   Portfolio({Key? key}) : super(key: key);
-
-  final theme = PortfolioTheme.dark();
 
   @override
   Widget build(BuildContext context) {
@@ -22,13 +22,20 @@ class Portfolio extends StatelessWidget {
       DeviceOrientation.landscapeLeft,
       DeviceOrientation.landscapeRight,
     ]);
-    return MaterialApp(
-        theme: theme,
-        title: 'Portfolio',
-        home: OrientationBuilder(builder: (context, orientation) {
-          return orientation == Orientation.portrait
-              ? SafeArea(child: Scaffold(body: HomePortrait()))
-              : HomeLandscape();
-        }));
+    return ValueListenableBuilder(
+        valueListenable: themeNotifier,
+        builder: (_, ThemeMode currentMode, __) {
+          return MaterialApp(
+              theme: PortfolioTheme.light(),
+              darkTheme: PortfolioTheme.dark(),
+              themeMode: ThemeMode.system,
+              title: 'Portfolio',
+              debugShowCheckedModeBanner: false,
+              home: OrientationBuilder(builder: (context, orientation) {
+                return orientation == Orientation.portrait
+                    ? SafeArea(child: Scaffold(body: HomePortrait()))
+                    : HomeLandscape();
+              }));
+        });
   }
 }
