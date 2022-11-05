@@ -12,8 +12,7 @@ class Socials extends StatelessWidget {
       children: [
         IconButton(
           onPressed: () {
-            launchUrl(Uri.parse(
-                'https://instagram.com/the.chukwudi?utm_medium=copy_link'));
+            launchUrl(Uri.parse('https://instagram.com/the.chukwudi'));
           },
           icon: Icon(
             FontAwesomeIcons.instagram,
