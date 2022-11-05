@@ -40,11 +40,11 @@ I came up with the design myself. The design shows a background image with an op
 
 ### Challenges
 
-- Making the landscape orientation responsive
+- Making the landscape orientation's UI responsive. I solved it by completing rebuilding and adding new components specifically for the landscape view
 
 ### Continued development
 
-I would have added more pages like portfoilo (aka My work), educational background, work experience and a separate contact me page.
+If i had more time, I would have worked on the My work page to display all the works i have done so far. I would have also added more pages like educational background, work experience and a separate contact me page.
 
 
 
